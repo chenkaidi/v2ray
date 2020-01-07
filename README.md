@@ -11,7 +11,7 @@
 
 编辑 `vim /etc/v2ray/config.json` 文件来配置你需要的代理方式；
 
-运行 `systemclt start v2ray` 来启动 V2Ray 进程；
+运行 `systemctl start v2ray` 来启动 V2Ray 进程；
 
 之后可以使用 `systemctl start|stop|status|restart v2ray` 控制 V2Ray 的运行。
 
