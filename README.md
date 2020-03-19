@@ -9,8 +9,6 @@
 
 编辑 `vim /etc/v2ray/config.json` 文件来配置你需要的代理方式；
 
-运行 `systemctl start v2ray` 来启动 V2Ray 进程；
-
 之后可以使用 `systemctl start|stop|status|restart v2ray` 控制 V2Ray 的运行。
 
 以上命令均需要 root 权限。对于第一步编辑配置文件，可以偷懒不进行改动，不过最好改动一下端口以及 ID，改动 ID 是为了安全不被盗用，改动端口为三位数或更少，对速度有所改善（**最好改为80、443端口**），这是一种玄学, 80端口从来没有被封过 ) 。
