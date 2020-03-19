@@ -2,9 +2,11 @@
 目前自动安装脚本支持所有主流系统，只需一行命令即可完成安装过程，当你想要更新V2Ray的时候同样只需要运行下面一行命令即可。
 
 `bash <(curl -L -s https://install.direct/go.sh)`
+
 运行以上命令需要 root 权限，所以请切换到 root 账户下运行。该脚本会自动安装unzip和deamon，并自动安装以下两个文件：
 
 /usr/bin/v2ray/v2ray：V2Ray 程序；
+
 /etc/v2ray/config.json：配置文件；
 
 脚本安装完成无误后，可以进行如下操作：
