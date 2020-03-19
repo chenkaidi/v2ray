@@ -3,13 +3,9 @@
 
 `bash <(curl -L -s https://install.direct/go.sh)`
 
-运行以上命令需要 root 权限，所以请切换到 root 账户下运行。该脚本会自动安装unzip和deamon，并自动安装以下两个文件：
+运行以上命令需要 root 权限，所以请切换到 root 账户下运行。
 
-/usr/bin/v2ray/v2ray：V2Ray 程序；
-
-/etc/v2ray/config.json：配置文件；
-
-脚本安装完成无误后，可以进行如下操作：
+配置文件 /etc/v2ray/config.json
 
 编辑 `vim /etc/v2ray/config.json` 文件来配置你需要的代理方式；
 
